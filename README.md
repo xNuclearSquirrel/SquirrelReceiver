@@ -1,6 +1,6 @@
 # SquirrelReceiver
 
-SquirrelReceiver is a desktop application for receiving and recording digital FPV video streams from DJI Goggles on a Windows PC directly over WiFi.
+SquirrelReceiver is a desktop application for receiving and recording digital FPV video streams wirelessly and directly over WiFi from DJI Goggles on a Windows PC.
 
 ## Compatibility
 * **Goggles:** DJI Goggles 2, DJI Goggles 3, DJI Goggles N3.
@@ -8,15 +8,18 @@ SquirrelReceiver is a desktop application for receiving and recording digital FP
 
 ## Setup and Activation
 
-To use SquirrelReceiver, you must configure your Goggles and activate the software using the SquirrelCast Android app.
+To use SquirrelReceiver, the PC must join the WiFi network hosted by the Goggles. Because the default credentials of this network are typically unknown, you must use the SquirrelCast Android app to configure them.
 
 ### 1. Goggles WiFi Configuration
-The Goggles must be on the same network as your computer to transmit the stream.
 1. Connect your Android phone to the DJI Goggles via USB OTG.
 2. Open SquirrelCast and navigate to the **Utilities** tab.
-3. In the **Goggles WiFi Settings** card, enter your local Wi-Fi SSID and Password.
-4. Tap **Set** for both fields.
-5. The Goggles will reboot and connect to your network.
+3. In the **Goggles WiFi Settings** card, you can view the current SSID/Password or enter a new SSID and Password.
+4. Tap **Set** to push your desired configuration to the Goggles.
+5. On your Goggles, navigate to the top bar menu and enable **Live Sharing** to broadcast the WiFi signal.
+
+
+
+6. On your Windows PC, scan for WiFi networks and connect to the SSID you configured in Step 3 using your set password.
 
 ### 2. Software Activation
 SquirrelReceiver requires a one-time hardware activation via the SquirrelCast Android app.
@@ -28,17 +31,16 @@ SquirrelReceiver requires a one-time hardware activation via the SquirrelCast An
 6. Enter this key into the activation field in the Windows app.
 
 ### 3. Usage
-1. Ensure your PC is on the same Wi-Fi network configured in Step 1.
-2. SquirrelReceiver will detect the stream automatically once the Goggles are powered on and connected to the network.
-3. Footage is saved directly to the `Documents/SquirrelReceiver Recordings` folder when the **Record** button is used.
+1. Once your PC is connected to the Goggles' WiFi, SquirrelReceiver will automatically detect and display the video stream.
+2. Use the **Record** button to save footage directly to the `Documents/SquirrelReceiver Recordings` folder.
 
 ## Troubleshooting
 
 ### Connection Issues
-* **Network Mismatch:** Verify that both the PC and the Goggles are connected to the same 2.4GHz or 5GHz band of your router.
+* **WiFi Connection:** Ensure your PC hasn't automatically switched back to your home internet WiFi. It must stay connected to the Goggles' network.
+* **Live Sharing Toggle:** If the video does not appear, verify that **Live Sharing** is still toggled ON in the Goggles' shortcut menu.
 * **Firewall:** Ensure Windows Firewall is not blocking incoming UDP traffic for SquirrelReceiver.
-* **IP Changes:** If the Goggles receive a new IP address from your router, the stream may take a few moments to re-establish.
 
 ### Activation Issues
-* **HMAC Key Entry:** Ensure the license key is entered exactly as shown in the Android app, including dashes. 
-* **QR Visibility:** If the QR code fails to scan, ensure your PC monitor brightness is sufficient and there is no glare on the screen.
+* **Key Format:** Ensure the license key is entered exactly as shown in the Android app, including all dashes. 
+* **QR Visibility:** If the QR code fails to scan, increase your PC monitor brightness and ensure there is no glare hitting the screen.
