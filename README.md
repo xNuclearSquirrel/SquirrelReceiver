@@ -43,4 +43,4 @@ SquirrelReceiver requires a one-time hardware activation via the SquirrelCast An
 
 ### Activation Issues
 * **Key Format:** Ensure the license key is entered exactly as shown in the Android app, including all dashes. 
-* **QR Visibility:** If the QR code fails to scan, increase your PC monitor brightness and ensure there is no glare hitting the screen.
+
