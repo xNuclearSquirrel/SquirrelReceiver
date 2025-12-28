@@ -40,7 +40,3 @@ SquirrelReceiver requires a one-time hardware activation via the SquirrelCast An
 * **WiFi Connection:** Ensure your PC hasn't automatically switched back to your home internet WiFi. It must stay connected to the Goggles' network.
 * **Live Sharing Toggle:** If the video does not appear, verify that **Live Sharing** is still toggled ON in the Goggles' shortcut menu.
 * **Firewall:** Ensure Windows Firewall is not blocking incoming UDP traffic for SquirrelReceiver.
-
-### Activation Issues
-* **Key Format:** Ensure the license key is entered exactly as shown in the Android app, including all dashes. 
-
