@@ -17,7 +17,7 @@ To use SquirrelReceiver, the PC must join the WiFi network hosted by the Goggles
 4. Tap **Set** to push your desired configuration to the Goggles.
 5. On your Goggles, swipe down to access the top bar menu and enable **Share Liveview to Mobile Device via Wi-Fi** to broadcast the signal.
 
-![Share Liveview to Mobile Device via Wi-Fi](share_liveview.png)
+![Share Liveview to Mobile Device via Wi-Fi](share_liveview1.png)
 
 6. On your Windows PC, scan for WiFi networks and connect to the SSID you configured in Step 3 using your set password.
 ### 2. Software Activation
