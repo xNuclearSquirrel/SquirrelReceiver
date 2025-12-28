@@ -39,3 +39,14 @@ SquirrelReceiver requires a one-time hardware activation via the SquirrelCast An
 * **WiFi Connection:** Ensure your PC hasn't automatically switched back to your home internet WiFi. It must stay connected to the Goggles' network.
 * **Live Sharing Toggle:** If the video does not appear, verify that **Live Sharing** is still toggled ON in the Goggles' shortcut menu.
 * **Firewall:** Ensure Windows Firewall is not blocking incoming UDP traffic for SquirrelReceiver.
+
+* This is still a work in progress! Not all goggles and aircraft have been tested. Some may not work or require changes to the code. I would appreciate any feedback on what works or doesn't work.
+
+##### Credits
+- Thanks to Joonas for the help when developing this!
+
+
+## Support the Project 💖
+If you find this project useful, consider donating to support development!
+
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/donate/?hosted_button_id=BSA49E6J5DLM4)
