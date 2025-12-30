@@ -35,12 +35,17 @@ SquirrelReceiver requires a one-time hardware activation via the SquirrelCast An
 
 ## Troubleshooting
 
+### Known issues
+* The video can be glitchy once the AU is armed. I think it's related to package loss and a higher frame rate after arming. It looks like there is a way to request lost packages, but I haven't quite figured out how to do that yet. Hopefully something I will add in the future which should improve the link quality quite a bit.
+
 ### Connection Issues
 * **WiFi Connection:** Ensure your PC hasn't automatically switched back to your home internet WiFi. It must stay connected to the Goggles' network.
 * **Live Sharing Toggle:** If the video does not appear, verify that **Live Sharing** is still toggled ON in the Goggles' shortcut menu.
 * **Firewall:** Ensure Windows Firewall is not blocking incoming UDP traffic for SquirrelReceiver.
 
 * This is still a work in progress! Not all goggles and aircraft have been tested. Some may not work or require changes to the code. I would appreciate any feedback on what works or doesn't work.
+
+
 
 ##### Credits
 - Thanks to Joonas for the help when developing this!
