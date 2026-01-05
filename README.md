@@ -36,7 +36,7 @@ SquirrelReceiver requires a one-time hardware activation via the SquirrelCast An
 ## Troubleshooting
 
 ### Known issues
-* The video can be glitchy once the AU is armed. I think it's related to package loss and a higher frame rate after arming. It looks like there is a way to request lost packages, but I haven't quite figured out how to do that yet. Hopefully something I will add in the future which should improve the link quality quite a bit.
+* The video can be glitchy once the AU is armed. I think it's related to package loss and a higher frame rate after arming. In version 1.1.0 SquirrelReceiver actively rerequests lost packages. This helps a bit, but some glitches persist, so there are more improvements needed.
 
 ### Connection Issues
 * **WiFi Connection:** Ensure your PC hasn't automatically switched back to your home internet WiFi. It must stay connected to the Goggles' network.
