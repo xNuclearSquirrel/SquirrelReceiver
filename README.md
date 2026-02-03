@@ -8,9 +8,9 @@ SquirrelReceiver is a desktop application for receiving and recording digital FP
 
 ## Setup and Activation
 
-To use SquirrelReceiver, the PC must join the WiFi network hosted by the Goggles. Because the default credentials of this network are typically unknown, you must use the SquirrelCast Android app to configure them.
+To use SquirrelReceiver, the PC must join the WiFi network hosted by the Goggles. Because the default credentials of this network are typically unknown, you must use the **SquirrelCast Android app** to configure them.
 
->Note: For more information about SquirrelCast and how to get it, look here: https://github.com/xNuclearSquirrel/SquirrlCast-Public
+>Note: For more information about **SquirrelCast** and how to get it, look here: https://github.com/xNuclearSquirrel/SquirrlCast-Public
 
 ### 1. Goggles WiFi Configuration
 1. Connect your Android phone to the DJI Goggles via USB.
