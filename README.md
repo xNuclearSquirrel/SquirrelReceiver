@@ -2,6 +2,10 @@
 
 SquirrelReceiver is a desktop application for receiving and recording digital FPV video streams wirelessly and directly over WiFi from DJI goggles on a Windows PC.
 
+## UPDATE ANNOUNCEMENT
+
+I am working on a big update, which will significantly improve video quality over WiFi sharing. It should get rid of most video artifacts! Additionally, I am adding a **USB mode**! You will be able to stream video directly from the Goggles 3 to the PC over USB. That should get rid of all artifacts and offer around 100-150 ms latency!! Stay tuned for that.
+
 ## Compatibility
 * **Goggles:** DJI Goggles 3
 * **OS:** Windows 10 or 11 (64-bit).
