@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Detached video window placeholder</title>
+  <desc id="desc">Placeholder for a detached SquirrelReceiver video window.</desc>
+  <rect width="1200" height="675" fill="#f3f5f7"/>
+  <rect x="70" y="96" width="480" height="360" rx="8" fill="#ffffff" stroke="#c8d0d8" stroke-width="3"/>
+  <rect x="650" y="150" width="480" height="270" rx="8" fill="#20262c" stroke="#c8d0d8" stroke-width="3"/>
+  <text x="310" y="286" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#53616b">Main window</text>
+  <text x="890" y="295" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#ffffff">Detached video</text>
+  <text x="600" y="560" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" fill="#172026">Replace with multi-monitor screenshot</text>
+</svg>
