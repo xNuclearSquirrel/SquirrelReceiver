@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">Lens and LUT screenshot placeholder</title>
-  <desc id="desc">Placeholder for Pro lens correction and LUT settings.</desc>
+  <title id="title">Lens and LUT illustration</title>
+  <desc id="desc">Illustration of Pro lens correction and LUT settings.</desc>
   <rect width="1200" height="675" fill="#f3f5f7"/>
   <rect x="48" y="48" width="1104" height="579" rx="10" fill="#ffffff" stroke="#c8d0d8" stroke-width="3"/>
   <rect x="110" y="126" width="440" height="360" fill="#2c343b"/>
   <rect x="650" y="126" width="440" height="360" fill="#2c343b"/>
   <path d="M150 306 C220 210 435 210 510 306 C435 402 220 402 150 306Z" fill="none" stroke="#88bde6" stroke-width="18"/>
   <path d="M690 306 C760 238 980 238 1050 306 C980 374 760 374 690 306Z" fill="none" stroke="#7bc67b" stroke-width="18"/>
-  <text x="600" y="566" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="32" fill="#172026">Lens correction and LUT screenshots</text>
+  <text x="600" y="566" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="32" fill="#172026">Lens correction and LUT controls</text>
 </svg>

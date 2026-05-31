@@ -2,32 +2,26 @@
 
 Lens correction and LUTs are SquirrelReceiver Pro features.
 
-They are not included in SquirrelReceiver Lite.
-
-<img src="images/placeholder-lens-lut.svg" alt="Placeholder for lens correction and LUT settings screenshots" width="75%" />
-
-<!-- TODO: Add final settings screenshots, FOV comparison images, and 4:3 to 16:9 examples. -->
+<img src="images/lens-lut-illustration.svg" alt="Lens correction and LUT settings illustration" width="75%" />
 
 ## Lens correction
 
-Lens correction can reduce the wide-angle distortion from the DJI camera feed.
+Lens correction reduces the wide-angle distortion from the DJI camera feed. This is useful when the receiver output is shown on a large monitor, streamed, or recorded for later use.
 
-The Pro version can include built-in profiles and can also load supported custom lens profiles. The receiver should choose profiles that match the stream aspect ratio and resolution.
+SquirrelReceiver Pro can use built-in lens profiles and supported custom profiles. Pick the profile that matches the camera, aspect ratio, and resolution you are using.
 
 ## 4:3 to 16:9 expansion
 
-Some goggles/camera modes use a 4:3 source image. Pro can include a 4:3 to 16:9 expansion mode so the output fills a 16:9 screen more naturally.
+Some camera modes use a 4:3 image. The 4:3 to 16:9 expansion mode fills a 16:9 output more naturally.
 
-This needs visual examples before release, because users should be able to see the FOV tradeoff clearly.
+This changes the field of view and crop, so it is worth comparing the result with and without expansion before using it for an important stream or recording.
 
 ## LUTs
 
-LUT support is for color conversion and grading workflows, for example converting D-Log M footage toward Rec.709 for easier monitoring.
+LUTs are used for color conversion and monitoring. A common use is converting DJI D-Log M toward Rec.709 so the live view looks more natural on a normal display.
 
-The exact LUT file location and supported file types will be documented here before release.
+For O4 Pro / O4 Air Unit D-Log M footage, use DJI's official LUT:
 
-## Notes
+[DJI O4 Air Unit Series D-Log M to Rec.709](https://www.dji.com/downloads/softwares/o4-air-unit-dlog-to-rec709)
 
-- These features can affect performance.
-- Use the wired Pro path if you want the cleanest preview while also applying correction or LUTs.
-- Lite should not show these controls.
+Use the LUT controls in SquirrelReceiver Pro settings to select the LUT file. The wired Pro path is the best match for lens correction and LUTs because it gives the cleanest input stream before the image is processed.

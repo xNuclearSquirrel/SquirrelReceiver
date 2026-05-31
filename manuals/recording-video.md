@@ -2,9 +2,7 @@
 
 SquirrelReceiver can record the live video stream to the Windows PC.
 
-<img src="images/placeholder-recording.svg" alt="Placeholder for SquirrelReceiver recording controls screenshot" width="75%" />
-
-<!-- TODO: Replace placeholder with final Record button and recording path screenshots. -->
+<img src="images/recording-illustration.svg" alt="SquirrelReceiver recording controls illustration" width="75%" />
 
 ## Start and stop recording
 

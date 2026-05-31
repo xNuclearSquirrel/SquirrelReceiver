@@ -2,23 +2,8 @@
 
 Custom waiting screen logo support is a SquirrelReceiver Pro feature.
 
-It lets you change the logo shown while the receiver is waiting for video.
+It changes the logo shown while SquirrelReceiver is waiting for video. This is useful for events, club demos, livestream setups, and ground station screens where the receiver may sit on the waiting screen before the goggles start sending video.
 
-<img src="images/placeholder-custom-logo.svg" alt="Placeholder for custom waiting screen logo screenshot" width="75%" />
+<img src="images/custom-logo-illustration.svg" alt="Custom waiting screen logo illustration" width="75%" />
 
-<!-- TODO: Add final screenshots and exact supported image requirements. -->
-
-## What it is for
-
-This is mostly useful for:
-
-- Events
-- Club demos
-- Livestream setups
-- Ground station screens that may sit on the waiting screen for a while
-
-## What still needs to be documented
-
-Before release, this page needs the exact supported image format, recommended size, transparency behavior, and where the selected logo is stored.
-
-Lite should not include this feature.
+Open SquirrelReceiver Pro settings and choose the waiting screen logo you want to use. The selected logo is shown only on the receiver waiting screen; it does not change the incoming DJI video.
