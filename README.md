@@ -4,7 +4,10 @@ SquirrelReceiver is a desktop application for receiving and recording digital FP
 
 ## UPDATE ANNOUNCEMENT
 
-I am working on a big update, which will significantly improve video quality over WiFi sharing. It should get rid of most video artifacts! Additionally, I am adding a **USB mode**! You will be able to stream video directly from the Goggles 3 to the PC over USB. That should get rid of all artifacts and offer around 100-150 ms latency!! Stay tuned for that.
+I am working on a big update, which will significantly improve video quality over WiFi sharing. It should get rid of most video artifacts! 
+Additionally, I am working an new Pro Version of the Receiver featuring a **USB mode**! You will be able to stream video directly from the Goggles 3 to the PC over USB. That should get rid of all artifacts and offer around 100-150 ms latency! In some cases as low as 75 ms!!! I'm also adding a lot of extras like live lens correction, LUTs, a separate standalone video window, and some custom logo/waiting screens. Stay tuned for that.
+
+The Pro version will be slightly more expensive, but the base version of Squirrelreceiver with unlimited WiFi sharing will always be free for SquirrelCast users!
 
 ## Compatibility
 * **Goggles:** DJI Goggles 3
