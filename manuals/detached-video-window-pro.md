@@ -4,11 +4,15 @@ The detached video window is a SquirrelReceiver Pro feature.
 
 It opens the live video in a separate window while the main SquirrelReceiver window keeps the controls and settings.
 
-<img src="images/detached-window-illustration.svg" alt="Detached video window illustration" width="75%" />
+<img src="images/squirrelreceiver-external-video-window.png" alt="SquirrelReceiver main window with an external video window" width="75%" />
 
 This is useful on a dedicated streamer rig where the video-only window goes to a separate HDMI output, monitor, capture card, or projector. It is also useful when you want OBS to capture only the live video while SquirrelReceiver settings stay on another screen.
 
-Because the detached window contains only the video, you can change receiver settings, lens correction, LUTs, or recording options without showing those controls on the HDMI output or OBS capture.
+OBS can capture the main SquirrelReceiver window, but capturing the detached/external window is usually easier because that window contains no receiver UI.
+
+<img src="images/squirrelreceiver-clean-video-window.png" alt="Clean external SquirrelReceiver video window without controls" width="75%" />
+
+The clean external window can be placed on another display while the controls remain on the main screen. You can then change receiver settings, lens correction, LUTs, or recording options without showing those controls on the second display, HDMI output, or OBS capture.
 
 ## Fullscreen on another display
 

@@ -65,7 +65,7 @@ Read: [Installing SquirrelReceiver Lite](manuals/installing-squirrelreceiver-lit
 | Unlock path | SquirrelCast Android app | Microsoft Store |
 | Cost | Free receiver download if you already own SquirrelCast | USD $19.99 |
 
-SquirrelReceiver Lite is meant for the Wi-Fi workflow. Unlocking it uses the SquirrelCast Android app, which costs around USD $7.
+SquirrelReceiver Lite provides unlimited Wi-Fi live view and remains free for SquirrelCast users. Unlocking it uses the SquirrelCast Android app, which costs around USD $7.
 
 SquirrelReceiver Pro is the recommended version if you want the best live view path. The wired mode avoids most Wi-Fi packet loss problems and keeps the goggles charging while connected.
 

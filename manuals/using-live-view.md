@@ -2,7 +2,7 @@
 
 After setup, SquirrelReceiver waits for the DJI Goggles 3 live view stream and shows it in the main window.
 
-<img src="images/live-view-illustration.svg" alt="SquirrelReceiver live view illustration" width="75%" />
+<img src="images/squirrelreceiver.png" alt="SquirrelReceiver showing the DJI Goggles 3 live view" width="75%" />
 
 ## Start receiving video
 

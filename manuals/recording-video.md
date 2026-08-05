@@ -2,11 +2,11 @@
 
 SquirrelReceiver can record the live video stream to the Windows PC.
 
-<img src="images/recording-illustration.svg" alt="SquirrelReceiver recording controls illustration" width="75%" />
+<img src="images/squirrelreceiver-recording.png" alt="SquirrelReceiver recording a live video stream" width="75%" />
 
 ## Start and stop recording
 
-Use the **Record** button in SquirrelReceiver to start or stop recording.
+Use the **Record** button in SquirrelReceiver to start recording. While recording, the button changes to **Stop** and the status bar displays the recording duration. Select **Stop** to finish and save the recording.
 
 Recording is available after the receiver is unlocked/licensed:
 
