@@ -1,67 +1,88 @@
 # SquirrelReceiver
 
-SquirrelReceiver is a desktop application for receiving and recording digital FPV video streams wirelessly and directly over WiFi from DJI goggles on a Windows PC.
+SquirrelReceiver is a Windows app for receiving live video from **DJI Goggles 3** on a PC.
 
-## UPDATE ANNOUNCEMENT
+It can receive the goggles' built-in Wi-Fi live view. SquirrelReceiver Pro also supports a wired USB mode with lower latency, fewer artifacts, and charging for the goggles while you fly or test.
 
-I am working on a big update, which will significantly improve video quality over WiFi sharing. It should get rid of most video artifacts! 
-Additionally, I am working an new Pro Version of the Receiver featuring a **USB mode**! You will be able to stream video directly from the Goggles 3 to the PC over USB. That should get rid of all artifacts and offer around 100-150 ms latency! In some cases as low as 75 ms!!! I'm also adding a lot of extras like live lens correction, LUTs, a separate standalone video window, and some custom logo/waiting screens. Stay tuned for that.
+<img src="manuals/images/squirrelreceiver.png" alt="SquirrelReceiver receiving video on Windows" width="75%" />
 
-The Pro version will be slightly more expensive, but the base version of Squirrelreceiver with unlimited WiFi sharing will always be free for SquirrelCast users!
+## Manuals
+
+- [Installing SquirrelReceiver Lite](manuals/installing-squirrelreceiver-lite.md)
+- [Installing SquirrelReceiver Pro (Pro)](manuals/installing-squirrelreceiver-pro.md)
+- [Wi-Fi Liveview Setup](manuals/wifi-liveview-setup.md)
+- [USB Wired Setup (Pro)](manuals/usb-wired-setup-pro.md)
+- [First-Time USB Adapter Setup (Pro)](manuals/usb-wired-first-time-adapter-setup-pro.md)
+- [Using Live View](manuals/using-live-view.md)
+- [Recording Video](manuals/recording-video.md)
+- [Lens Correction and LUTs (Pro)](manuals/lens-correction-and-luts-pro.md)
+- [Detached Video Window (Pro)](manuals/detached-video-window-pro.md)
+- [Custom Waiting Screen Logo (Pro)](manuals/custom-waiting-logo-pro.md)
+- [Troubleshooting](manuals/troubleshooting.md)
 
 ## Compatibility
-* **Goggles:** DJI Goggles 3
-* **OS:** Windows 10 or 11 (64-bit).
 
-## Setup and Activation
+- **Goggles:** DJI Goggles 3
+- **OS:** Windows 10 or Windows 11, 64-bit
+- **Wi-Fi mode:** Lite and Pro
+- **Wired USB mode:** Pro only
+- **SquirrelCast:** Needed to configure goggles Wi-Fi and to unlock Lite
 
-To use SquirrelReceiver, the PC must join the WiFi network hosted by the Goggles. Because the default credentials of this network are typically unknown, you must use the **SquirrelCast Android app** to configure them.
+SquirrelReceiver is not an RTSP or WebRTC receiver. It receives the direct live view stream from DJI Goggles 3.
 
->Note: For more information about **SquirrelCast** and how to get it, look here: https://github.com/xNuclearSquirrel/SquirrlCast-Public
+## Quick Start
 
-### 1. Goggles WiFi Configuration
-1. Connect your Android phone to the DJI Goggles via USB.
-2. Open the SquirrelCast app and navigate to the **Utilities** tab. 
-3. In the **Goggles WiFi Settings** tab, you can view the current SSID/Password or enter a new SSID and Password.
-4. Tap **Set** to push your desired configuration to the goggles.
-5. On your goggles, swipe down to access the top bar menu and enable **Share Liveview to Mobile Device via Wi-Fi** to broadcast the signal.
+### If you use Lite
 
-![Share Liveview to Mobile Device via Wi-Fi](liveview.png)
+1. Install SquirrelReceiver Lite.
+2. Unlock it through the SquirrelCast Android app.
+3. Configure the goggles' Wi-Fi in SquirrelCast.
+4. Enable **Liveview sharing** in the goggles.
+5. Connect the Windows PC to the goggles' Wi-Fi network.
 
-6. On your Windows PC, scan for WiFi networks and connect to the SSID you configured in Step 3 using your set password.
+Read: [Installing SquirrelReceiver Lite](manuals/installing-squirrelreceiver-lite.md) and [Wi-Fi Liveview Setup](manuals/wifi-liveview-setup.md)
 
-### 2. Software Activation
-SquirrelReceiver requires a one-time hardware activation via the SquirrelCast Android app.
-1. Launch SquirrelReceiver on your Windows PC.
-2. Open the **Settings** menu to display the unique **Unlock QR Code**.
-3. In SquirrelCast on your phone, navigate to the **Utilities** tab and tap **Scan Unlock QR**.
-4. Scan the QR code displayed on your PC screen.
-5. A License Key will be generated in the Android app.
-6. Enter this key into the activation field in the Windows app.
+### If you use Pro
 
-### 3. Usage
-1. Once your PC is connected to the goggles' WiFi, SquirrelReceiver will automatically detect and display the video stream.
-2. Use the **Record** button to save footage directly to the `Documents/SquirrelReceiver Recordings` folder.
+1. Install [SquirrelReceiver Pro from the Microsoft Store](https://apps.microsoft.com/detail/9p95mhs1678g).
+2. Enable **Liveview sharing** in the goggles.
+3. Use [USB Wired Setup (Pro)](manuals/usb-wired-setup-pro.md) for the best video path, or [Wi-Fi Liveview Setup](manuals/wifi-liveview-setup.md) for wireless use.
 
-## Troubleshooting
+> **Important:** Liveview sharing must be enabled in the goggles for both Wi-Fi and wired mode. This is easy to miss.
 
-### Known issues
-* The video can be glitchy once the AU is armed. I think it's related to package loss and a higher frame rate after arming. In version 1.1.0 SquirrelReceiver actively rerequests lost packages. This helps a bit, but some glitches persist, so there may be more improvements needed.
+## Lite and Pro
 
-### Connection Issues
-* **WiFi Connection:** Ensure your PC hasn't automatically switched back to your home internet WiFi. It must stay connected to thegGoggles' network.
-* **Live Sharing Toggle:** If the video does not appear, verify that **Live Sharing** is still toggled ON in the goggles' shortcut menu.
-* **Firewall:** Ensure Windows Firewall is not blocking incoming UDP traffic for SquirrelReceiver.
+| Feature | SquirrelReceiver Lite | SquirrelReceiver Pro |
+| --- | --- | --- |
+| Wi-Fi live view from DJI Goggles 3 | Yes | Yes |
+| Wired USB live view | No | Yes |
+| Charges the goggles while receiving video | No | Yes, in wired mode |
+| Expected wired latency | Not available | Usually around 100-150 ms, best cases around 75 ms |
+| Recording | Yes | Yes |
+| Lens correction and LUTs | No | Yes |
+| Detached video window | No | Yes |
+| Custom waiting screen logo | No | Yes |
+| Unlock path | SquirrelCast Android app | Microsoft Store |
+| Cost | Free receiver download if you already own SquirrelCast | USD $19.99 |
 
-* This is still a work in progress! Not all goggles and aircraft have been tested. Some may not work or require changes to the code. I would appreciate any feedback on what works or doesn't work.
+SquirrelReceiver Lite provides unlimited Wi-Fi live view and remains free for SquirrelCast users. Unlocking it uses the SquirrelCast Android app, which costs around USD $7.
 
+SquirrelReceiver Pro is the recommended version if you want the best live view path. The wired mode avoids most Wi-Fi packet loss problems and keeps the goggles charging while connected.
 
+Get Pro here: [SquirrelReceiver Pro on Microsoft Store](https://apps.microsoft.com/detail/9p95mhs1678g)
 
-##### Credits
-- Thanks to Joonas for the help when developing this!
+## Support
 
+For questions, feedback, or compatibility reports, join the Discord:
 
-## Support the Project 💖
-If you find this project useful, consider donating to support development!
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/rv37TDFwcX)
+
+## Credits
+
+Thanks to Joonas for the help when developing this, and thanks to everyone who tested early builds and reported what worked and what did not.
+
+## Support the Project
+
+If you find this project useful, consider donating to support development.
 
 [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/donate/?hosted_button_id=BSA49E6J5DLM4)
